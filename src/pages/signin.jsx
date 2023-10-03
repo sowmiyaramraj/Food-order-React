@@ -19,8 +19,8 @@ export default function Signin(){
         
     }
     return(
-        <div>
-            
+        <div className="Signin">
+
             <Card className="card">
                 <form className="form" onSubmit={()=>navigate("/home")}>
                     <lable className="text">Signin</lable>

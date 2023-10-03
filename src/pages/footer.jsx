@@ -39,7 +39,7 @@ export default function Footer(){
         </Grid>
         <Grid item xs={3} >
           <Item><p>
-            LEARN mORE
+            LEARN MORE
             <br/>
             Privacy<br/>Security<br/>Terms</p></Item>
         </Grid>

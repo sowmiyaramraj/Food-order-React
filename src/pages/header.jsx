@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Header(){
     return(
-        <div>
-            <Link to="/">Add Restaurent</Link>
-            <Link to="/signin">Signin</Link>
-            <Link to="/signup">Signup</Link>
+        <div style={{background:"grey",height:"50px"}}>
+            <Link style={{fontSize:"22px",color:"purple"}} to="/">Add Restaurent</Link> &nbsp;
+            <Link style={{fontSize:"22px",color:"purple"}} to="/signin">Signin</Link>&nbsp;&nbsp;
+            <Link style={{fontSize:"22px",color:"purple"}} to="/signup">Signup</Link>
         </div>
     );
 }

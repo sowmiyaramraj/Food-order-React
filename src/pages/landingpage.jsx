@@ -2,25 +2,14 @@ import React from "react";
 import Landingpagelogo from "../images/landing.avif"
 import Header from "./header";
 import { Box, Grid } from "@mui/material";
+import Footer from "./footer";
 
 export default function Landingpage(){
     return(
-        <div className="head">
-            <div style={{ margin:"10px",backgroundSize: "contain",height:"350px", backgroundRepeat: "no-repeat",backgroundImage: `url(${Landingpagelogo})`}}>
-            <Header/>
-            </div>
-            <Box>
-            <Grid item xs={6}>
-            <p>hello</p>
-            </Grid>
-            <Grid item xs={6}>
-                <img style={{width:"20px",height:"50%"}} src={Landingpagelogo}/>
-
-            </Grid>
-            </Box>
-
-             
-             
+        <div className="head" style={{width:"100%",margin:"10px",height:"350px"}}>
+         <Header/> 
+         <img style={{maxWidth:"1000px"}} src={Landingpagelogo}/>
+         <Footer/>
         </div>
     );
 

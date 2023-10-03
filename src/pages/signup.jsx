@@ -28,8 +28,8 @@ export default function Signup(){
         navigate("/");
     }
     return(
-        <div>
-            <Card className="card">
+        <div className="Signup">
+            <Card className="card1">
                 <form className="form" onSubmit={()=>navigate("/home")}>
                     <lable className="text">Signup</lable>
                     <input className="field" type="text" name="name" placeholder="Full Name" value={formdata.name} onChange={(e)=>setFormdata({...formdata,name:e.target.value})}></input><br/>

@@ -11,8 +11,7 @@ import Home from './pages/home';
 function App() {
   return (
     <div className="App">
-      <div className='header'>
-      
+          
       <Router>
        <ShopContextProvider>
     
@@ -27,7 +26,7 @@ function App() {
         </Routes>
         </ShopContextProvider>
       </Router>
-      </div>
+      
     </div>
   );
 }
